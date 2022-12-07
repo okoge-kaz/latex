@@ -91,7 +91,24 @@
 
 All done! Now you can use latex in vscode.
 
+## Install jlisting
+
+Cloud Latex と同様の環境をつくるために、試行錯誤した記録
+
+1. `kpsewhich listings.sty`
+
+   で、listings.sty のパスを調べる
+
+2. cd でそのパスに移動
+
+3. open . でそのパスを Finder で開く
+
+4. [listings.sty](./jlisting.sty)を追加
+
+5. `sudo mktexlsr`
+
 ## References
 
 - https://zenn.dev/ganariya/articles/vscode-latex-indent
 - https://qiita.com/DaikiSuyama/items/d463c5b7afdabc5fcde5
+- https://qiita.com/N_Matsukiyo/items/1199f07a0e1bf4fce29c
